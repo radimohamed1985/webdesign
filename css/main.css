@@ -1,54 +1,77 @@
-*{ box-sizing: border-box;
-padding: 0;
-margin: 0;
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 /* upper nav css start */
 .upper-nav{
     display:flex;
     justify-content: space-between;
-    background-color:black;
-    color: white;
+    align-items: center;
+    background-color:#6D4326;
+    height: 6vh;
 
+}
+.links a{
+    color: #efefee !important;
 }
 /* upper nav css end  */
 /* navbar css start */
 .navbar{
-    background-color: lightgrey;
-    height: 100px;
+    background-color: #efefee;
+    height: 10vh;
     font-weight: bolder;
 }
 .links a{
-
     text-decoration: none;
-    padding: 10px;
-    margin-left: 20px;
+    margin-left: 60px;
+    padding: 3px 10px;
     color: white;
+}
+.links a:hover{
+    border: 1px solid #222;
 
 }
-.icon a{
-    padding: 10px;
-margin-left: 30px;
-color: white;
+.mainpic{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../data/leone-venter-pVt9j3iWtPM-unsplash.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.nav-link a{
+    margin-left: 60px;
+    padding: 3px 10px;
+    color: white;
+}
+.nav-link:hover{
+    border: 1px solid #222;
+
 }
 
 /* nav bar css end */
 /* mainpic& main paragrahph start */
-.mainpic{
-    margin-top:20px ;
-    margin-bottom:30px ;
-    width: 100%;
-    height: 650px;
-    overflow: hidden;
-}
+
 
 .para{
-    background-color:#eee;
-    color: black;
-    height: 30px;
-    text-align: center;
+    color: #222;
     line-height: 30px;
     margin-bottom: 20px;
     font-weight: bolder;
+}
+.btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #3F3229;
+    color: #efefee;
+}
+.btn:hover{
+
+    background-color: #efefee;
+    color: #3F3229;
+    transition: 0.3s;
 }
 /* mainpic and main paraghraph end */
 /* cards start */
@@ -56,15 +79,13 @@ color: white;
     background-color:lightgrey;
     color: black;
     height: 225px;
-  
 }
 /* card end */
 /* footer start */
 
 footer{
-    background-color: lightgrey;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background-color: palegoldenrod;
+    padding: 30px;
 }
 footer h3,h5{
     margin-bottom: 25px;
