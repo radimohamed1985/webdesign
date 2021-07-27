@@ -172,12 +172,83 @@
      <div class="container">
       <h3 class="text-center"><i> recive free bussines tools and resources</i></h3>
       <h5 class="text-center" style="font-style: italic;">not ready to invest in website you can invest on our monthly resourcses</h5>
-      <form action="" class="text-center">
-        <input type="text" class="form-control-lg" placeholder="username">
-        <input type="text"  class="form-control-lg" placeholder="password">
-        <input type="text"  class="form-control-lg" placeholder="e-mail">
-        <input type="submit" value="sign-up" class="btn btn-dark form-control-lg" style="color: white;">
+  
+      <form class="row g-3 needs-validation hidden" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationCustom01" placeholder="First Name" required>
+      
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" required>
+      
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">E-mail</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required placeholder="E-mail">
+           
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Description</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+        
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">State</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Egypt</option>
+            <option>...</option>
+          </select>
+      
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationCustom05" required placeholder="City">
+        
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+         
+          </div>
+        </div>
+        <div class="col-6">
+          <button class="btn btn-primary" type="submit">Sign up</button>
+        </div>
+      
       </form>
+
+      <!-- end -->
+      <!-- hidden login -->
+      <form id="form" >
+        <div class="row mb-3 ">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3" placeholder="E-mail">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+          </div>
+        </div>
+        <div class="row mb-3 col-sm-10 offset-sm-2">
+          <button class="btn" type="submit" id="log">Login</button>
+          <span id="signup"><b>sign up now</b> </span>
+
+          </div>
+       
+         
+      </form>
+      <!-- hidden login -->
       <h3 class="text-center ro">web site design and branding design all in one </h3>
       <div class="footericon">
         <ul style="list-style: none; text-align: center;">
@@ -199,6 +270,6 @@
    </footer>
 
    <!-- footer end -->
-  
+  <script src="js/main.js"></script>
 </body>
 </html>

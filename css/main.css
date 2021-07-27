@@ -95,5 +95,11 @@ footer h3,h5{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+.hidden{
+    display: none;
+}
+#signup{
+    cursor: pointer;
+    color:#3F3229;
+}
 /* footer end  */
